@@ -34,3 +34,4 @@ utilizando métodos como a validação cruzada.
 Desenvolver e implementar soluções de IA requer uma atenção cuidadosa a esses princípios éticos.
 - Responsabilidade no Uso da IA: Inclui a garantia de que a IA seja usada de forma responsável,
 respeitando direitos individuais e evitando danos.
+
