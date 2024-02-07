@@ -1,13 +1,5 @@
-# IA-Generativa-com-AWS
-Curso de um Bootcamp da Trybe
-______________________________________
-Objetivo do curso:
 
-- Compreender o que é IA Generativa e sua importância no atual cenário tecnológico.
-- Identificar e saber como utilizar as principais ferramentas de IA Generativa oferecidas pela AWS.
-- Analisar e aplicar IA Generativa a casos de uso reais de diferentes setores.
-______________________________________________________________
-  ## Como IA surgiu 
+  # Como IA surgiu 
 - Maquina de turing -> maquina que consegue resolver problemas logicos
 - enxadrista -> primeiras maquinas que jogava xadrez 
 - enac -> computador usado durante a segunda guerra para decifrar e quebrar mensagens criptografadas que estavam sendo trocadas ali durante a guerra 
