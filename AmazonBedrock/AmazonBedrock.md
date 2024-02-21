@@ -44,11 +44,11 @@ Para configuração do ambiente, precisamos:
 
 Para acessar o Amazon Bedrock, basta entrar na página inicial do console da AWS, pesquisar 
 por Bedrock e acessar o serviço, clicando no ícone Amazon Bedrock, e depois no botão “Get started”
-![img.png](img.png)
+![img.png](imagens/img.png)
 
 Feito isso, você deve estar na página de Overview do Amazon Bedrock:
 
-![img_1.png](img_1.png)
+![img_1.png](imagens/img_1.png)
 
 2. Pedir acesso aos modelos
 
@@ -57,14 +57,14 @@ Então clique no botão Manage model access, no canto superior direito da lista 
 selecione os modelos que quer pedir o acesso. 
 Após isso clique no botão Save changes no canto inferior direito da tabela, conforme nas imagens:
 
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
+![img_2.png](imagens/img_2.png)
+![img_3.png](imagens/img_3.png)
 
 ### Playground
 Você poderá escolher varios playgrounds, aqui vai o exemplo do Text 
 
-![img_4.png](img_4.png)
-![img_5.png](img_5.png)
+![img_4.png](imagens/img_4.png)
+![img_5.png](imagens/img_5.png)
 
 3. Criar um usuário de acesso via código
 
@@ -75,21 +75,21 @@ Esse acesso é liberado através das políticas adicionadas no seu Identity and 
 Para isso, será necessário acessar o IAM no seu console e criar a permissão aos modelos do Amazon Bedrock.
 
 A partir da página do Console Home, pesquise por IAM e entre no serviço IAM:
-![img_6.png](img_6.png)
+![img_6.png](imagens/img_6.png)
 
 Primeiramente vamos criar a política de permissão através do Policies na seção Access management 
 no menu lateral:
-![img_7.png](img_7.png)
+![img_7.png](imagens/img_7.png)
 
 Clique no botão Create policy no canto superior direito.
 No passo 1 (Step 1) em Specify permissions selecione a aba JSON, coloque o código abaixo e clique em Next.
-![img_8.png](img_8.png)
-![img_9.png](img_9.png)
+![img_8.png](imagens/img_8.png)
+![img_9.png](imagens/img_9.png)
 
 No passo 2 (Step 2), defina um nome para a política, bedrock_policy por exemplo, 
 e clique no botão Create policy
 
-![img_10.png](img_10.png)
+![img_10.png](imagens/img_10.png)
 
 
 5. Relacionar a política de acesso a um dado usuário
@@ -97,11 +97,11 @@ e clique no botão Create policy
 Uma vez a política criada, precisamos associá-la a um user, portanto, no menu lateral, abra o link Users. Caso você não tenha nenhum usuário, clique no botão Create user para criar um novo.
 
 Serão três novos passos, no primeiro definimos o nome do usuário
-![img_11.png](img_11.png)
+![img_11.png](imagens/img_11.png)
 
 Caso você queira adicionar a nova política a um usuário já existente, 
 basta clicar sobre o usuário desejado, seguir para aba Permission,
 clicar no botão Add permissions e então na opção Add permissions novamente.
 
-![img_12.png](img_12.png)
+![img_12.png](imagens/img_12.png)
 
